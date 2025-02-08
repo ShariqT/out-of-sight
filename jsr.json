@@ -1,5 +1,6 @@
 {
   "name": "@reese-codes/out-of-sight",
   "version": "0.0.2",
+  "license": "GPL v2",
   "exports": "./index.ts"
 }
