@@ -46,7 +46,7 @@ export function encodeSecretIntoText(text: string, publicKey: string,
   }
 
 
-export function decodeTextIntoSecret(encodedText: string){
+export function decodeTextIntoSecret(encodedText: string) : object | KeyJSON {
   const keyJSON: KeyJSON | undefined = vercelStegaDecode(encodedText)
   if (keyJSON === undefined) {
     console.log('error')
