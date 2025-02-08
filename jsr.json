@@ -1,5 +1,5 @@
 {
   "name": "@reese-codes/out-of-sight",
   "version": "0.0.2",
-  "exports": "."
+  "exports": "./index.ts"
 }
